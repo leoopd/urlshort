@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"os"
 
-	"leo/go/src/urlshort"
+	"github.com/leoopd/urlshort"
 )
 
 func main() {
