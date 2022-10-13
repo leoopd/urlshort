@@ -1,6 +1,10 @@
+github.com/go-yaml/yaml v2.1.0+incompatible h1:RYi2hDdss1u4YE7GwixGzWwVo47T8UQwnTLB6vQiq+o=
+github.com/go-yaml/yaml v2.1.0+incompatible/go.mod h1:w2MrLa16VYP0jy6N7M5kHaCkaLENm+P+Tv+MfurjSw0=
 github.com/leoopd/urlshort v0.1.3 h1:Lwenb4RrQ9e7rwpFOU4KtyDz36o0rv/q6Jd94cUVYwU=
 github.com/leoopd/urlshort v0.1.3/go.mod h1:tG/ZfPW5uuVGwyOqsTokxlnaN6YQNQsbWhC+cWLVr5Y=
 github.com/leoopd/urlshort v0.1.4 h1:kcVwYpUuqf83k/teaOrZV389xwHcwxtGHVgfqUHy1Rc=
 github.com/leoopd/urlshort v0.1.4/go.mod h1:tG/ZfPW5uuVGwyOqsTokxlnaN6YQNQsbWhC+cWLVr5Y=
 github.com/leoopd/urlshort v0.2.0 h1:CO1VM5eaIKR4fjP3fqF8iCRt4Kg7pWWsTaIvogrlLso=
 github.com/leoopd/urlshort v0.2.0/go.mod h1:tG/ZfPW5uuVGwyOqsTokxlnaN6YQNQsbWhC+cWLVr5Y=
+github.com/leoopd/urlshort v0.2.1 h1:VMcSMKXA/OobJj3jfJX4nFa4qn6Oz7wHtO0nxE2J9K0=
+github.com/leoopd/urlshort v0.2.1/go.mod h1:quevxiWosN7EoDe7P2m6h1a9w3tHQjy6UYss2+eV3Ic=

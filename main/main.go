@@ -27,7 +27,7 @@ func main() {
 	  url: https://github.com/gophercises/urlshort
 	- path: /urlshort-final
 	  url: https://github.com/gophercises/urlshort/tree/solution
-	`
+`
 	yamlHandler, err := urlshort.YAMLHandler([]byte(yaml), mapHandler)
 	if err != nil {
 		panic(err)
@@ -45,3 +45,8 @@ func defaultMux() *http.ServeMux {
 func hello(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintln(w, "Hello, world!")
 }
+
+// - path: /urlshort
+//   url: https://github.com/gophercises/urlshort
+// - path: /urlshort-final
+//   url: https://github.com/gophercises/urlshort/tree/solution
