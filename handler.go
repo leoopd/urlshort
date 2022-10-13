@@ -40,6 +40,8 @@ func makeMapFromParsedYAML(yaml []yamlStruct) map[string]string {
 	for i := 0; i < len(yaml); i++ {
 		yamlMap[yaml[i].Path] = yaml[i].Url
 	}
+
+	return yamlMap
 }
 
 func YAMLHandler(yml []byte, fallback http.Handler) (http.HandlerFunc, error) {
