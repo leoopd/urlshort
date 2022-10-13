@@ -29,19 +29,19 @@ func MapHandler(pathsToUrls map[string]string, fallback http.Handler) http.Handl
 // Parses the given yaml byte slice into a struct with the fields
 // Path and Url
 func parseYAML(yamlSlice []byte) ([]yamlStruct, error) {
-	var err1 error
+	var err error
 	var yamlParsed []yamlStruct
 
-	if dfws, err := yaml.Unmarshal(yamlSlice, &yamlParsed); err != nil {
-		err.Error("could not parse yaml")
+	if err := yaml.Unmarshal(yamlSlice, &yamlParsed); err != nil {
+		err.Error()
 	}
 
-	return yamlParsed, err1
+	return yamlParsed, err
 }
 
 // Converts the parsed yaml into a map with the path as key and
 // url as the corresponding value
-func makeMapFromParsedYAML(yaml []yamlStruct) (map[string]string, err) {
+func makeMapFromParsedYAML(yaml []yamlStruct) (map[string]string, error) {
 	var err error
 	yamlMap := make(map[string]string)
 	for i := 0; i < len(yaml); i++ {

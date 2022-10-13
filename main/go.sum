@@ -8,3 +8,5 @@ github.com/leoopd/urlshort v0.2.0 h1:CO1VM5eaIKR4fjP3fqF8iCRt4Kg7pWWsTaIvogrlLso
 github.com/leoopd/urlshort v0.2.0/go.mod h1:tG/ZfPW5uuVGwyOqsTokxlnaN6YQNQsbWhC+cWLVr5Y=
 github.com/leoopd/urlshort v0.2.1 h1:VMcSMKXA/OobJj3jfJX4nFa4qn6Oz7wHtO0nxE2J9K0=
 github.com/leoopd/urlshort v0.2.1/go.mod h1:quevxiWosN7EoDe7P2m6h1a9w3tHQjy6UYss2+eV3Ic=
+github.com/leoopd/urlshort v0.2.2 h1:4iFGWo/28DlEtahSs9MO5LN4aA+KO3BpsSVx4U8g9AY=
+github.com/leoopd/urlshort v0.2.2/go.mod h1:quevxiWosN7EoDe7P2m6h1a9w3tHQjy6UYss2+eV3Ic=
