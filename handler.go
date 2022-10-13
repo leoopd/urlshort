@@ -1,6 +1,7 @@
 package urlshort
 
 import (
+	"errors"
 	"net/http"
 
 	yaml "github.com/go-yaml/yaml"
@@ -33,7 +34,7 @@ func parseYAML(yamlSlice []byte) ([]yamlStruct, error) {
 	var yamlParsed []yamlStruct
 
 	if err := yaml.Unmarshal(yamlSlice, &yamlParsed); err != nil {
-		err.Error()
+		errors.New("YAML could not be parsed")
 	}
 
 	return yamlParsed, err
@@ -49,7 +50,7 @@ func makeMapFromParsedYAML(yaml []yamlStruct) (map[string]string, error) {
 	}
 
 	if len(yamlMap) == 0 {
-		err.Error()
+		err = errors.New("Map is empty")
 	}
 	return yamlMap, err
 }
